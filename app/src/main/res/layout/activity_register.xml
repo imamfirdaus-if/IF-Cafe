@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/teal_700"
+    android:background="@android:color/white"
     android:gravity="center_vertical"
     tools:context=".RegisterActivity">
 
@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:text="REGISTER"
             android:textSize="29dp"
-            android:textColor="@android:color/darker_gray"
+            android:textColor="@color/teal_200"
             android:textStyle="bold"
             android:layout_marginBottom="20dp"
             android:layout_gravity="center" />
@@ -32,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Email"
-            android:textColor="@android:color/darker_gray"/>
+            android:textColor="@color/black"/>
 
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/username_input"
@@ -45,7 +45,7 @@
             android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/darker_gray"
+            android:textColor="@color/black"
             android:text="Password" />
 
         <androidx.appcompat.widget.AppCompatEditText
@@ -61,8 +61,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Kalo udah ada akun tinggal login disini"
-            android:textSize="8dp"
-            android:textColor="@android:color/darker_gray"
+            android:textSize="12dp"
+            android:textColor="@color/teal_200"
             />
 
         <androidx.appcompat.widget.AppCompatButton
